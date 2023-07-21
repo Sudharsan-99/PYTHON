@@ -1,0 +1,60 @@
+#STRINGS
+#String is contiguous set of character represented in quotation
+print("STRING DATA TYPE AND THE OPERATIONS IN IT")
+sonu="HI..."
+print("INDEXING")
+print(sonu)
+print(sonu[0])#prints the first character of the string
+print(sonu[-1])#prints the last character of the string
+
+#SLICING 
+print("SLICING")
+print(sonu[1:5])#prints froms 1st character to 4h character
+print(sonu[:3])
+print(sonu[3:])
+
+#REPEATATION OF A STRING
+print("REPEATING OF STRING")
+print(sonu*2)#prints sonu 2 times
+
+#ADDING A ELEMENT TO THE STRING
+print("ADDING A ELEMENT TO THE STRING")
+print(sonu+" SONU")#prints HIIIIII SONU
+
+#CONCATENATION
+print("ADDING A NEW STRING TO THE EXISTING STRING")
+hi="di..."
+print(sonu+hi)
+
+#STRING METHODS
+
+print("STRING METHODS")
+sonu1="python programming"
+print(sonu1)
+print(len(sonu1))#Length of The String
+print(sonu1.split())#To Split a String into a list of substring
+a=(sonu1.capitalize())#to capitalize the first letter of the string
+print(a)
+a=sonu1.upper()#to print all the letter in the string as capital letter
+print(a)
+a=sonu1.count("p")#to count how many times a character as repeated in the string
+print(a)
+a=sonu1.find("y")#to find the position of the character in the string
+print(a)
+a=sonu1.ljust(2)
+print(a)
+a=sonu1.center(2)
+print(a)
+a=sonu1.replace("python","c")
+print(a)
+a=sonu1.rstrip()
+print(a)
+a=sonu1.lstrip()
+print(a)
+a=sonu1.rfind("t")
+print(a)
+a=sonu1.rjust(3)
+print(a)
+b="C PRORAMMING"
+print(b)
+print(b.lower())
