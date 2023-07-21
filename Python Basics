@@ -1,0 +1,40 @@
+#BASIC PYTHON PROGRAM
+
+#HELLO WORLD PROGRAM
+print('HELLO WORLD')
+
+#DATA TYPES
+x=3
+print(type(x))
+y=3.6
+print(type(y))
+z="hiiii"
+print(type(z))
+a = 3j
+print(type(a))
+
+#python interprets 1,000,000 as a comma seperated sequence of integer
+x=1,000,000
+
+#STANDARD DATA TYPE
+#There are five standard data types.They are given below:
+#NUMBERS
+#STRINGS
+#LIST
+#TUPLES
+#DICTIONARY
+
+#NUMBERS-Numbers store numeric value.There are 4 numeric type.They are:
+#int
+#float
+#complex
+print("NUMBERS DATA TYPE")
+#int-(signed intergers) example-23,45
+b=3
+print("the number 3 is",type(b))
+#float-(floating point real value) example-23.45,45.67
+c=3.6
+print("the number 3.6 is",type(c))
+#complex-(combination of both real and imaginary numbers) example-3j,45+5j
+d=45+8j
+print("the number 45+8j is",type(d))
