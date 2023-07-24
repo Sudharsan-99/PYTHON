@@ -1,0 +1,56 @@
+#LIST
+list1=[]
+print(type(list1))
+list2=[1,2,3,"sonu","moni"]
+print("The list 2 is = " ,list2)
+for i in list2:
+    print(i)
+print("\n")
+print("INDEXING")
+print("The first element of the list 'list2' is = ",list2[0])
+print("The third element of the list 'list2' is = ",list2[2])
+print("\n")
+print("SLICING")
+print("The first three element of the list 'list2' is = ",list2[:3])
+print("The last three element of the list 'list2' is = " ,list2[2:])
+print("The second,third,fourth element of the list 'list2' is = ",list2[1:4])
+print("\n")
+print("CONCATENATION")
+list3=["ram","lakshmana"]
+print("The list 3 is = " ,list3)
+b=list2+list3
+print("The result of adding the list2 and list3 is = ",b)
+print("\n")
+print("REPETATION")
+c=list2*2
+print("The list2 will be printed twice,and the result is = ",c)
+print("\n")
+print("INSERTION")
+(list2.append("Ram"))
+print("The list 2 is = " ,list2)
+print(list1.extend(list2))
+print("The list 1 is = " ,list1)
+for i in list1:
+    print(i)
+list1.insert(3,4)
+print("The list 1 is = " ,list1)
+for i in list1:
+    print(i)
+print("\n")
+print("The length of the list2 is=",len(list2))
+print("\n")
+print("List Comprehension")
+list4=[i for i in  list1]
+print(list4)
+list5=[1,2,3,4,5,6,7,8,9,10]
+print("The list5 is=",list5)
+list6=[i**2 for i in list5 if i%2==0]
+print("The list6 is=",list6)
+print("\n")
+print("DELETION")
+print("The element 1 in the list2 is deleted and the result is = ",list2.remove(1))
+print(list2)
+list2.pop()
+print("The last element of list 2 is deleted and the result is = ",list2)
+list2.pop(1)
+print("The element present in the 2nd position is deleted and the result is = ",list2)
