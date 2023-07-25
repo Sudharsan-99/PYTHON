@@ -1,0 +1,41 @@
+#DICTIONARIES
+dict1={1:"kirshna",2:"Radha",3:"Balarama",5:56}
+print("The dict1 is = ",dict1)
+print(type(dict))
+print("The values of the key are")
+for i in dict1.values():
+    print(i)
+print("\n")
+print("INSERTION")
+dict1[4]=67
+print(dict1)
+print("\n")
+print("Deletion")
+dict1.pop(4)
+print("It removes the 4th key and value from the dictionaries","\t",dict1)
+dict1.popitem()
+print("The dictionary after delete operation is" ,dict1)
+print("\n")
+print("DICTONARY BUILT IN FUNCTION")
+print("It returns a copy of the dictionary","\t",dict1.copy())
+print("\n")
+print("Returns a list containing tuples of key and values","\t",dict1.items())
+print("\n")
+print("Returns a values of the specificed key 1","\t",dict1.get(1))
+print("\n")
+print("Returns a list of keys in the dictionary","\t",dict1.keys())
+print("\n")
+print("Returns a list of values in the dictionary","\t",dict1.values())
+print("Clear all the dictionary element")
+dict1.clear()
+print(dict1)
+
+
+#GETTING INPUT FROM USER AND CREATING A DICTIONARY
+sonu={}
+n=int(input("Enter the Total Number of Dictionary="))
+while len(sonu)< n:
+    name=input("Enter the name:")
+    mark=input("Enter the mark:")
+    sonu[name]=mark
+print(sonu)
